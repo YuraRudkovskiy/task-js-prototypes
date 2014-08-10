@@ -26,10 +26,16 @@
 	Cat.scratch.call(Duck);
 	Duck.peck.call(Cat);
 	Duck.peck.call(Cat);
+	Duck.peck();
+	console.log("Sorry!)");
 	Duck.peck.call(Cat);
 	Duck.peck.call(Cat);
-	
+	Cat.scratch.call(Duck);
+	Cat.scratch.call(Duck);
+	Cat.scratch.call(Duck);
+
 	Cat.sayHp();
 	Duck.sayHp();
+
 
 }());
