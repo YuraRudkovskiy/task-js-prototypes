@@ -33,8 +33,9 @@
 
 	CatMonster.prototype = Object.create(Monster.prototype);
 
-	CatMonster.prototype.scratch = function(){
-		this.changeDamage(5);
+	CatMonster.prototype.scratch = function(obj){
+		console.log(this.name, "atack");
+		this.changeDamage.call(obj, 5);
 	}
 
 
@@ -45,8 +46,9 @@
 
 	BirdMonster.prototype = Object.create(Monster.prototype);
 
-	BirdMonster.prototype.peck = function(){
-		this.changeDamage(3);
+	BirdMonster.prototype.peck = function(obj){
+		console.log(this.name, "atack");
+		this.changeDamage.call(obj, 3);
 	}
 
 

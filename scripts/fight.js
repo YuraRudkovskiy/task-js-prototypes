@@ -14,41 +14,41 @@
 	Cat.sayHp();
 	Duck.sayHp();
 
-	Cat.scratch.call(Duck);
+	Cat.scratch(Duck);
 
 	Cat.sayHp();
 	Duck.sayHp();
 
-	Cat.scratch.call(Duck);
-	Duck.peck.call(Cat);
-	Cat.scratch.call(Duck);
-	Duck.peck.call(Cat);
-	Cat.scratch.call(Duck);
-	Cat.scratch.call(Duck);
-	Duck.peck.call(Cat);
-	Duck.peck.call(Cat);
-	Duck.peck();
-	console.log("Sorry!)");
-	Duck.peck.call(Cat);
-	Duck.peck.call(Cat);
-	Cat.scratch.call(Duck);
-	Cat.scratch.call(Duck);
-	Cat.scratch.call(Duck);
+	Cat.scratch(Duck);
+	Duck.peck(Cat);
+	Cat.scratch(Duck);
+	Duck.peck(Cat);
+	Cat.scratch(Duck);
+	Cat.scratch(Duck);
+	Duck.peck(Cat);
+	Duck.peck(Cat);
+	// Duck.peck();
+	// console.log("Sorry!)");
+	Duck.peck(Cat);
+	Duck.peck(Cat);
+	Cat.scratch(Duck);
+	Cat.scratch(Duck);
+	Cat.scratch(Duck);
 
 	Cat.sayHp();
 	Duck.sayHp();
 
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
-	fastDuck.peck.call(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
+	fastDuck.peck(Cat);
 	
 	Cat.sayHp();
 	Duck.sayHp();
