@@ -15,6 +15,10 @@
 		console.log(this.currentHealth);
 	};
 
+	/*
+		!!! Внимание. Это монстры... и они себе урон тоже могут наносить(Вот такие будут у меня монстры).
+		можно сделать что б они, принимали обьект другого монстра и уменьшали их здоровье. А у меня будут монстры есть себя если будут голодными.))
+	*/
 	Monster.prototype.changeDamage = function(damage){
 		if(this.currentHealth < damage){
 			this.currentHealth = 0;
