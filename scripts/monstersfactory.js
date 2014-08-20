@@ -36,6 +36,16 @@
 	};
 
 	CatMonster.prototype = Object.create(Monster.prototype);
+	//CatMonster.prototype.constructor = CatMonster;
+	/*
+		по поводу этих записей, что я внес, подсмотрев после того как вы начали проверять. 
+		Алексей на лекции ни разу не упоминал(до того как я его не спросил) о потере конструктора.
+		Он сказал что так следует делать, когда нам действительно он необходим и в даном случае достаточно лишь (Object.create),
+		по этому здесь я его не применял.
+		+
+		CatMonster.superclass = Monster.prototype;
+		--- про такую запись он сказал вообще забыть, так что...
+	*/
 
 	CatMonster.prototype.scratch = function(obj){
 		console.log(this.name, "atack");
@@ -49,6 +59,7 @@
 	};
 
 	BirdMonster.prototype = Object.create(Monster.prototype);
+	//BirdMonster.prototype.constructor = BirdMonster;
 
 	BirdMonster.prototype.peck = function(obj){
 		console.log(this.name, "atack");
